@@ -5,5 +5,11 @@ out_hw/
 in_pdf/
 out_img/
 
+in_cut/
+out_cut/
+
+hw_image/
+out_php/
+
 testimg/
 testpdf/
