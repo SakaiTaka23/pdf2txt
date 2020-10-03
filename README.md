@@ -1,5 +1,14 @@
 # PDF2TXT
 
+## 現時点での実行手順
+
+1. automaterでpdfを１ページずつjpegファイルに変換
+2. cut-img.pyを実行
+3.  imx2txt.pyを実行
+* 実行時フォルダを事前に用意しておく
+input_hw_image jpegファイルを入れておく
+cutted_image カットされたものが出力される
+output_txt txtの結果出力
 
 
 ## 実装手順
@@ -26,6 +35,8 @@
 
 ## djangoでの着地点
 
+* 入力された写真のtxtを出力させる
+* 写真の座標を出力させる
 
 
 
