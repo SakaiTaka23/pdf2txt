@@ -11,7 +11,7 @@ tool = tools[0]
 
 # OCR対象の画像ファイルを読み込む
 img = ''
-index = '01'
+index = '1'
 
 for img_file in natsorted(img_files, key=lambda x: x.name):
     img = Image.open(img_file)
@@ -24,4 +24,4 @@ for img_file in natsorted(img_files, key=lambda x: x.name):
     with open(path_w, mode='w') as f:
         f.write(text)
     index = int(index) + 1
-    index = "{:02d}".format(index)
+    #index = "{:02d}".format(index)

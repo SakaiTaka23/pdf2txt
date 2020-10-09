@@ -1,10 +1,7 @@
-import pathlib
 import re
 
 short_path = 'short_name.txt'
 all_path = 'all_name.txt'
-txt_files = list(pathlib.Path('input_change_name').glob('*.php'))
-
 
 def get_names(names):
     names = names.split('.')
