@@ -20,7 +20,7 @@ for img_file in natsorted(img_files, key=lambda x: x.name):
     text = tool.image_to_string(img, lang="jpn+eng", builder=builder)
 
     #path_w = str(txt_dir) + '/sample02-' + index + '.php'
-    path_w = txt_dir/pathlib.Path('sample02-'+index+'.php')
+    path_w = txt_dir/pathlib.Path(index+'.php')
     with open(path_w, mode='w') as f:
         f.write(text)
     index = int(index) + 1

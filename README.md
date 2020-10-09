@@ -60,6 +60,10 @@ output_txt txtの結果出力
 
 
 
+
+
+
+
 ## 環境構築
 
 * tesseractの日本語学習データを入れる
